@@ -46,3 +46,60 @@
   .address_element_line {
     text-decoration: none;
   }
+  
+  .cover{
+    
+    position: relative;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .overlay{
+  z-index: -1;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0,0, 0.6);
+  }
+  .cover_title{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    color:white;
+    z-index: 2;
+    font-family: Raleway;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    line-height: 115px;
+    text-transform: uppercase;
+  }
+  .aligned-text{
+    font-size: 100px;
+    text-align: left;
+  }
+  .aligned-text_center{
+    font-size: 100px;
+    text-align: center;
+    line-height: 1; 
+  }
+  .aligned-text_right{
+    font-size: 100px;
+    text-align: right;
+    line-height: 1; 
+  }
+  .letter-spacing-extended{
+    letter-spacing: 0.6em;
+  }
+  .no-letter-spacing{
+    letter-spacing: 0em;
+  }
+
+.cover__description{
+    display: flex;
+    line-height: 28px;
+    font-family: Raleway;
+    font-size: 22px;
+    
+  }
+.cover__description-text{
+
+}
