@@ -154,12 +154,15 @@
   text-decoration: none;
 }
 .card_type_film {
+  background-position: center;
   background-image: url("../images/card-lot-01.jpg");
 }
 .card_type_book {
+  background-position: center;
   background-image: url("../images/card-lot-02.jpg");
 }
 .card_type_picture {
+  background-position: center;
   background-image: url("../images/card-lot-03.jpg");
 }
 .card_tittle {
