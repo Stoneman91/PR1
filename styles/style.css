@@ -225,14 +225,16 @@
   border-radius: 50%;
 }
 .about_title {
+  display: flex;
   height: 240px;
-  align-content: center;
+  align-items: center;
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
   line-height: 46.98px;
   margin-bottom: 8px;
 }
+
 .about_logo-image {
   width: 148px;
   height: 114px;
