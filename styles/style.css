@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
-  padding: 92px 24px 96px;
+  padding: 92px 24px;
 }
 
 .header_menu_list {
@@ -102,7 +102,7 @@
   cursor: pointer;
   font-family: Raleway, sans-serif;
   font-weight: 500;
-  padding: 12px 32px;
+  padding: 12px 32px 11px 31px;
   background: transparent;
   text-transform: uppercase;
   border: 1px solid white;
@@ -292,4 +292,11 @@
   height: 48px;
 }
 
+ /* .pixel-perfect-image {   
+   position: absolute;  
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  opacity: 0.5; 
+}   */
 
