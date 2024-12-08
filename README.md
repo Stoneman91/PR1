@@ -1,1 +1,1 @@
-https://github.com/Stoneman91/PR1.git
+https://github.com/Stoneman91/ono-tebe-nado.git
